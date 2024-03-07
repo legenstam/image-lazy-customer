@@ -1,0 +1,56 @@
+{
+  "name": "image-lazy-customer",
+  "version": "0.0.1",
+  "description": "React component for lazy loading Graph CMS Images. Optimizes initial page load time and provides optimal resolutions for different screen sizes. Loads blurry low resolution image initially which is later on replaced with HD images",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/legenstam/image-lazy-customer.git"
+  },
+  "homepage": "https://github.com/legenstam/image-lazy-customer.git",
+  "keywords": [
+    "image-lazy-load",
+    "image-lazy-loader",
+    "react-image-lazy-load",
+    "react-image-lazy-loader",
+    "lazy load",
+    "lazy loader",
+    "image lazy load",
+    "image lazy loader",
+    "react image lazy load",
+    "react image lazy loader",
+    "npm image lazy load",
+    "npm image lazy loader",
+    "graph cms lazy load",
+    "graph cms lazy loader",
+    "graphcms",
+    "graph-cms",
+    "npm",
+    "react",
+    "image",
+    "lazy",
+    "package",
+    "afiniti",
+    "nehaakram12"
+  ],
+  "main": "./lib/ImageLazyLoader.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
